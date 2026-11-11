@@ -13,6 +13,14 @@ from tqdm import tqdm
 # ==========================================
 # Config
 # ==========================================
+
+# ---- Settings used in the study (documentation only; code logic unchanged) ----
+# Decoding: max_new_tokens=512.
+#           MedGemma: do_sample=False (greedy).
+#           Qwen2.5-VL, Llama-3.2-Vision: do_sample not set -> model default generation_config ; see each model's generation_config.json
+# Hardware: [H200 x 1]
+
+
 HF_TOKEN = "hf_xxxxxxx"  # Hugging Face API token, required for some models
 
 # Model List for inference
