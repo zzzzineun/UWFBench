@@ -14,6 +14,12 @@ from prompts import SYSTEM_PROMPT, USER_PROMPTS
 # ==========================================
 # Config
 # ==========================================
+
+# ---- Settings used in the study (documentation only; code logic unchanged) ----
+# Decoding: no temperature / top_p / max_tokens / reasoning effort / seed was specified,
+#           so provider defaults at the time of access were used.
+
+
 OPENAI_API_KEY = "sk-xxxxxx"
 GEMINI_API_KEY = "xxxxxxxxx"
 
